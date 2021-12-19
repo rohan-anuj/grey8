@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 
 function Header() {
     return (
@@ -11,8 +11,8 @@ function Header() {
 
           </div>
           <div className="flex ">
-              <img src="/pictures/pic1.jpg" className="w-20 bg-white h-20 sm:w-32 sm:h-32 md:w-40 md:h-40 border-2 p-3 rounded lg:w-40 lg:h-40 xl:w-60 xl:h-60 " />
-              <img src="/pictures/pic2.jpg" className="w-20 bg-white h-20 sm:w-32 sm:h-32 md:w-40 md:h-40 z-6 mt-10 border-2 p-3 rounded lg:w-40 lg:h-40 xl:w-60 xl:h-60 " />
+              <img src="/pictures/pic1.jpg" className="w-20 bg-white h-20 sm:w-32 sm:h-32 md:w-40 md:h-40 border-2 p-3 rounded lg:w-40 lg:h-40 xl:w-60 xl:h-60 " alt="Image1" />
+              <img src="/pictures/pic2.jpg" className="w-20 bg-white h-20 sm:w-32 sm:h-32 md:w-40 md:h-40 z-6 mt-10 border-2 p-3 rounded lg:w-40 lg:h-40 xl:w-60 xl:h-60 "  alt="Image2"/>
           </div>
 
       
